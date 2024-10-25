@@ -608,6 +608,7 @@ textarea:focus {
 .footerMain .footerCol a {
     color: white;
     font-size: 14rem;
+    display: block;
 }
 
 .footerMain .footerCol a:hover {
@@ -622,8 +623,7 @@ textarea:focus {
 
 .socilLinks {
     display: flex;
-    gap: 10rem;
-    margin-left: 10px;
+    gap: 20rem;
 }
 
 /* footer end */
