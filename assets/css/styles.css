@@ -238,7 +238,7 @@ body {
     width: 100%;
     left: 0;
     bottom: -8rem;
-    background: url(../images/banner-bottomline.jpg) left top repeat-y;
+    background: url(../images/banner-bottomline.webp) left top repeat-y;
     background-size: 100%;
 }
 
@@ -411,7 +411,7 @@ body {
     width: 26px;
     height: 23px;
     line-height: 23px;
-    background: url(../images/listStyle.jpg) no-repeat;
+    background: url(../images/listStyle.webp) no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
