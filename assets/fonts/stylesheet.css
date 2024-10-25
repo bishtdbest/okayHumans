@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.woff2') format('woff2'),
+         url('raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('brandon-grotesque-light-58a8a4b38001d-webfont.woff2') format('woff2'),
+         url('brandon-grotesque-light-58a8a4b38001d-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brandon_grotesqueblack';
+    src: url('brandon-grotesque-black-58a8a3e824392-webfont.woff2') format('woff2'),
+         url('brandon-grotesque-black-58a8a3e824392-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'palmer_lake_printregular';
+    src: url('jen_wagner_co._-_palmer_lake_print_regular-webfont.woff2') format('woff2'),
+         url('jen_wagner_co._-_palmer_lake_print_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
