@@ -608,7 +608,7 @@ textarea:focus {
     color: white;
     font-size: 14rem;
     display: block;
-    list-style: 1;
+    line-height: 1;
     padding: 2px 0 6px;
 }
 
