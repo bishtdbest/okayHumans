@@ -1,20 +1,28 @@
 $(document).ready(function () {
-    // Toggle menu on click
-    $("button.mbMenu").click(function() {
-        $(".menu").toggleClass("active");
+// Toggle menu on click
+$("button.mbMenu").click(function() {
+    $(".menu").toggleClass("active");
 
-        // Manage aria attributes for accessibility
-        var isOpen = $(".menu").hasClass('active');
-        $(this).attr('aria-expanded', isOpen);
-        $(".menu").attr('aria-hidden', !isOpen);
-    });
+    // Manage aria attributes for accessibility
+    var isOpen = $(".menu").hasClass('active');
+    $(this).attr('aria-expanded', isOpen);
+    $(".menu").attr('aria-hidden', !isOpen);
 
-    // Close menu on button click
-    $(".btnClose").click(function() {
-        $(".menu").removeClass("active");
-        $("button.mbMenu").attr('aria-expanded', false);
-        $(".menu").attr('aria-hidden', true);
+    // Toggle tabindex for focusable elements inside the menu
+    $(".menu button, .menu a").each(function() {
+        $(this).attr('tabindex', isOpen ? 0 : -1);
     });
+});
+
+// Close menu on button click
+$(".btnClose").click(function() {
+    $(".menu").removeClass("active");
+    $("button.mbMenu").attr('aria-expanded', false);
+    $(".menu").attr('aria-hidden', true);
+
+    // Disable focus for all focusable elements inside the menu
+    $(".menu button, .menu a").attr('tabindex', -1);
+});
 
     // Add smooth scrolling to all links with class 'scrollButton'
     $('.scrollButton').on('click', function(e) {
