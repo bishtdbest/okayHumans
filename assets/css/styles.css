@@ -609,7 +609,7 @@ textarea:focus {
     font-size: 14rem;
     display: block;
     line-height: 1;
-    padding: 2px 0 6px;
+    padding: 4px 0 6px;
 }
 
 .footerMain .footerCol a:hover {
