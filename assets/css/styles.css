@@ -601,14 +601,15 @@ textarea:focus {
 }
 
 .footerMain .footerCol li {
-    margin-bottom: 10rem;
-}
+    margin-bottom: 4rem;
+    color: white;}
 
-.footerMain .footerCol li,
 .footerMain .footerCol a {
     color: white;
     font-size: 14rem;
     display: block;
+    list-style: 1;
+    padding: 2px 0 6px;
 }
 
 .footerMain .footerCol a:hover {
@@ -623,8 +624,10 @@ textarea:focus {
 
 .socilLinks {
     display: flex;
-    gap: 20rem;
+    gap: 10rem;
 }
+
+.socilLinks a{padding: 8px;}
 
 /* footer end */
 
